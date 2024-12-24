@@ -1,19 +1,20 @@
-#ReactUI - Prueba Técnica
+# ReactUI - Prueba Técnica
+
 Este proyecto corresponde al **frontend** de la aplicación de gestión de usuarios, empleados y solicitudes. Está desarrollado con **React** y consume la API REST del **backend** en Node.js.
 
 ## Tabla de Contenido
 
-1. [Características Principales](https://www.notion.so/ReactUI-Prueba-T-cnica-160352ef148e804699b1f0756ef21210?pvs=21)
-2. [Requisitos](https://www.notion.so/ReactUI-Prueba-T-cnica-160352ef148e804699b1f0756ef21210?pvs=21)
-3. [Instalación y Ejecución (Local)](https://www.notion.so/ReactUI-Prueba-T-cnica-160352ef148e804699b1f0756ef21210?pvs=21)
-4. [Docker y Despliegue Completo](https://www.notion.so/ReactUI-Prueba-T-cnica-160352ef148e804699b1f0756ef21210?pvs=21)
-    - [Estructura de Carpetas](https://www.notion.so/ReactUI-Prueba-T-cnica-160352ef148e804699b1f0756ef21210?pvs=21)
-    - [Dockerfiles](https://www.notion.so/ReactUI-Prueba-T-cnica-160352ef148e804699b1f0756ef21210?pvs=21)
-    - [docker-compose.yml](https://www.notion.so/ReactUI-Prueba-T-cnica-160352ef148e804699b1f0756ef21210?pvs=21)
-    - [Pasos de Despliegue](https://www.notion.so/ReactUI-Prueba-T-cnica-160352ef148e804699b1f0756ef21210?pvs=21)
-5. [Mejores Prácticas](https://www.notion.so/ReactUI-Prueba-T-cnica-160352ef148e804699b1f0756ef21210?pvs=21)
-6. [Seguridad](https://www.notion.so/ReactUI-Prueba-T-cnica-160352ef148e804699b1f0756ef21210?pvs=21)
-7. [Licencia](https://www.notion.so/ReactUI-Prueba-T-cnica-160352ef148e804699b1f0756ef21210?pvs=21)
+1. [Características Principales](https://www.notion.so/160352ef148e804699b1f0756ef21210?pvs=21)
+2. [Requisitos](https://www.notion.so/160352ef148e804699b1f0756ef21210?pvs=21)
+3. [Instalación y Ejecución (Local)](https://www.notion.so/160352ef148e804699b1f0756ef21210?pvs=21)
+4. [Docker y Despliegue Completo](https://www.notion.so/160352ef148e804699b1f0756ef21210?pvs=21)
+    - [Estructura de Carpetas](https://www.notion.so/160352ef148e804699b1f0756ef21210?pvs=21)
+    - [Dockerfiles](https://www.notion.so/160352ef148e804699b1f0756ef21210?pvs=21)
+    - [docker-compose.yml](https://www.notion.so/160352ef148e804699b1f0756ef21210?pvs=21)
+    - [Pasos de Despliegue](https://www.notion.so/160352ef148e804699b1f0756ef21210?pvs=21)
+5. [Mejores Prácticas](https://www.notion.so/160352ef148e804699b1f0756ef21210?pvs=21)
+6. [Seguridad](https://www.notion.so/160352ef148e804699b1f0756ef21210?pvs=21)
+7. [Licencia](https://www.notion.so/160352ef148e804699b1f0756ef21210?pvs=21)
 
 ---
 
@@ -285,5 +286,3 @@ volumes:
 4. **Manejo de Credenciales**
     - Variables sensibles en `.env` (tanto en el backend como en docker-compose).
     - No se suben tokens o secrets al repositorio público.
-
-###
