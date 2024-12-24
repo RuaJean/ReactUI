@@ -8,7 +8,6 @@ export const AuthProvider = ({ children }) => {
   const [token, setToken] = useState(null); // JWT
   const [loading, setLoading] = useState(true);
 
-  // Llamada extra para obtener perfil del usuario
   const getProfile = async () => {
     try {
       // GET /api/auth/me  -> { id, rol, [otros] }
@@ -16,7 +15,6 @@ export const AuthProvider = ({ children }) => {
       setUser(res.data);
     } catch (err) {
       console.error('Error al obtener perfil:', err);
-      // Si falla, hacemos logout
       logout();
     }
   };
@@ -25,14 +23,12 @@ export const AuthProvider = ({ children }) => {
     const savedToken = localStorage.getItem('token');
     if (savedToken) {
       setToken(savedToken);
-      // Intentamos obtener el perfil
       getProfile().finally(() => {
         setLoading(false);
       });
     } else {
       setLoading(false);
     }
-    // eslint-disable-next-line
   }, []);
 
   const login = async (email, password) => {
